@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cCs-FQ-eyD">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="mac" appearance="light" renderMode="macOS"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -10,21 +10,27 @@
         <!--View Controller-->
         <scene sceneID="31H-t8-4E2">
             <objects>
-                <viewController id="cCs-FQ-eyD" customClass="ViewController" customModule="VoiceRecorder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cCs-FQ-eyD" customClass="ViewController" customModule="SystemVoiceRecorder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="28S-ac-adV">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwS-t6-ZGX">
-                                <rect key="frame" x="147" y="149" width="99" height="30"/>
-                                <state key="normal" title="Record Button"/>
+                                <rect key="frame" x="340" y="85" width="121" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Record Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="recordButtonPressed:" destination="cCs-FQ-eyD" eventType="touchUpInside" id="BKk-Wm-q3Y"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yig-5h-gBe">
-                                <rect key="frame" x="127.66666666666669" y="219" width="138" height="30"/>
-                                <state key="normal" title="Play Your Recording"/>
+                                <rect key="frame" x="322" y="145" width="156" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Play Your Recording">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="playButtonPressed:" destination="cCs-FQ-eyD" eventType="touchUpInside" id="vf4-gd-eKz"/>
                                 </connections>
