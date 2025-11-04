@@ -4,7 +4,7 @@
 //
 //  Created by Touheed khan on 02/11/2025.
 //
-//  ViewController.swift
+//  ViewController12.swift
 
 //
 
@@ -12,9 +12,9 @@ import UIKit
 import AVFoundation
 import UniformTypeIdentifiers
 
-#if targetEnvironment(macCatalyst)
-import AppKit
-#endif
+//#if targetEnvironment(macCatalyst)
+//import AppKit
+//#endif
 
 func getDocumentsDirectory() -> URL {
     FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet var recordButton: UIButton!
     @IBOutlet var playButton: UIButton!
 
+    var firstTimeHaveRun: Bool = false
     var recordingSession: AVAudioSession!
     var audioRecorder: AVAudioRecorder!
     var audioPlayer: AVAudioPlayer!
@@ -32,7 +33,38 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        loadRecordingUI()
+    }
 
+    func loadRecordingUI() {
+        recordButton.isHidden = false
+        recordButton.setTitle("Tap to Record", for: .normal)
+        playButton.isHidden = true
+    }
+
+    // MARK: - Button Actions
+    @IBAction func recordButtonPressed(_ sender: UIButton) {
+        if audioRecorder == nil {
+            startRecording()
+        } else {
+            finishRecording(success: true)
+        }
+    }
+
+    @IBAction func playButtonPressed(_ sender: UIButton) {
+        if firstTimeHaveRun == false {
+            setUpSK()
+            firstTimeHaveRun = true
+        }
+        if audioPlayer == nil {
+            startPlayback()
+        } else {
+            finishPlayback()
+        }
+    }
+    
+    func setUpSK() {
         recordingSession = AVAudioSession.sharedInstance()
 
         do {
@@ -50,30 +82,6 @@ class ViewController: UIViewController {
             }
         } catch {
             showAlert(title: "Error", message: "Recording setup failed.")
-        }
-    }
-
-    func loadRecordingUI() {
-        recordButton.isHidden = false
-        recordButton.setTitle("Tap to Record", for: .normal)
-        playButton.isHidden = true
-    }
-
-    // MARK: - Button Actions
-
-    @IBAction func recordButtonPressed(_ sender: UIButton) {
-        if audioRecorder == nil {
-            startRecording()
-        } else {
-            finishRecording(success: true)
-        }
-    }
-
-    @IBAction func playButtonPressed(_ sender: UIButton) {
-        if audioPlayer == nil {
-            startPlayback()
-        } else {
-            finishPlayback()
         }
     }
 
