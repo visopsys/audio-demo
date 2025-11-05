@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		282FEB8A2EB7D5980083B693 /* SystemVoiceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemVoiceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284B1F422EBB1280000E4F25 /* SimpleAudioRecordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAudioRecordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		282FEB9C2EB7D59A0083B693 /* Exceptions for "SystemVoiceRecorder" folder in "SystemVoiceRecorder" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 282FEB892EB7D5980083B693 /* SystemVoiceRecorder */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		282FEB8C2EB7D5980083B693 /* SystemVoiceRecorder */ = {
+		284B1F442EBB1280000E4F25 /* SimpleAudioRecordApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				282FEB9C2EB7D59A0083B693 /* Exceptions for "SystemVoiceRecorder" folder in "SystemVoiceRecorder" target */,
-			);
-			path = SystemVoiceRecorder;
+			path = SimpleAudioRecordApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		282FEB872EB7D5980083B693 /* Frameworks */ = {
+		284B1F3F2EBB1280000E4F25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282FEB812EB7D5980083B693 = {
+		284B1F392EBB1280000E4F25 = {
 			isa = PBXGroup;
 			children = (
-				282FEB8C2EB7D5980083B693 /* SystemVoiceRecorder */,
-				282FEB8B2EB7D5980083B693 /* Products */,
+				284B1F442EBB1280000E4F25 /* SimpleAudioRecordApp */,
+				284B1F432EBB1280000E4F25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		282FEB8B2EB7D5980083B693 /* Products */ = {
+		284B1F432EBB1280000E4F25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				282FEB8A2EB7D5980083B693 /* SystemVoiceRecorder.app */,
+				284B1F422EBB1280000E4F25 /* SimpleAudioRecordApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		282FEB892EB7D5980083B693 /* SystemVoiceRecorder */ = {
+		284B1F412EBB1280000E4F25 /* SimpleAudioRecordApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 282FEB9D2EB7D59A0083B693 /* Build configuration list for PBXNativeTarget "SystemVoiceRecorder" */;
+			buildConfigurationList = 284B1F512EBB1282000E4F25 /* Build configuration list for PBXNativeTarget "SimpleAudioRecordApp" */;
 			buildPhases = (
-				282FEB862EB7D5980083B693 /* Sources */,
-				282FEB872EB7D5980083B693 /* Frameworks */,
-				282FEB882EB7D5980083B693 /* Resources */,
+				284B1F3E2EBB1280000E4F25 /* Sources */,
+				284B1F3F2EBB1280000E4F25 /* Frameworks */,
+				284B1F402EBB1280000E4F25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				282FEB8C2EB7D5980083B693 /* SystemVoiceRecorder */,
+				284B1F442EBB1280000E4F25 /* SimpleAudioRecordApp */,
 			);
-			name = SystemVoiceRecorder;
+			name = SimpleAudioRecordApp;
 			packageProductDependencies = (
 			);
-			productName = SystemVoiceRecorder;
-			productReference = 282FEB8A2EB7D5980083B693 /* SystemVoiceRecorder.app */;
+			productName = SimpleAudioRecordApp;
+			productReference = 284B1F422EBB1280000E4F25 /* SimpleAudioRecordApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		282FEB822EB7D5980083B693 /* Project object */ = {
+		284B1F3A2EBB1280000E4F25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					282FEB892EB7D5980083B693 = {
+					284B1F412EBB1280000E4F25 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 282FEB852EB7D5980083B693 /* Build configuration list for PBXProject "SystemVoiceRecorder" */;
+			buildConfigurationList = 284B1F3D2EBB1280000E4F25 /* Build configuration list for PBXProject "SimpleAudioRecordApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 282FEB812EB7D5980083B693;
+			mainGroup = 284B1F392EBB1280000E4F25;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 282FEB8B2EB7D5980083B693 /* Products */;
+			productRefGroup = 284B1F432EBB1280000E4F25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				282FEB892EB7D5980083B693 /* SystemVoiceRecorder */,
+				284B1F412EBB1280000E4F25 /* SimpleAudioRecordApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		282FEB882EB7D5980083B693 /* Resources */ = {
+		284B1F402EBB1280000E4F25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		282FEB862EB7D5980083B693 /* Sources */ = {
+		284B1F3E2EBB1280000E4F25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,75 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		282FEB9E2EB7D59A0083B693 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SystemVoiceRecorder/SystemVoiceRecorder.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6N26ZXPY3B;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SystemVoiceRecorder/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Application requires access to phone microphone to make recordings";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-2album.com.SystemVoiceRecorder";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		282FEB9F2EB7D59A0083B693 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SystemVoiceRecorder/SystemVoiceRecorder.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6N26ZXPY3B;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SystemVoiceRecorder/Info.plist;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Application requires access to phone microphone to make recordings";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-2album.com.SystemVoiceRecorder";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		282FEBA02EB7D59A0083B693 /* Debug */ = {
+		284B1F4F2EBB1282000E4F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,18 +177,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		282FEBA12EB7D59A0083B693 /* Release */ = {
+		284B1F502EBB1282000E4F25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,38 +234,93 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284B1F522EBB1282000E4F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleAudioRecordApp/SimpleAudioRecordApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N26ZXPY3B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = album.com.SimpleAudioRecordApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		284B1F532EBB1282000E4F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleAudioRecordApp/SimpleAudioRecordApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6N26ZXPY3B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = album.com.SimpleAudioRecordApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		282FEB852EB7D5980083B693 /* Build configuration list for PBXProject "SystemVoiceRecorder" */ = {
+		284B1F3D2EBB1280000E4F25 /* Build configuration list for PBXProject "SimpleAudioRecordApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				282FEBA02EB7D59A0083B693 /* Debug */,
-				282FEBA12EB7D59A0083B693 /* Release */,
+				284B1F4F2EBB1282000E4F25 /* Debug */,
+				284B1F502EBB1282000E4F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		282FEB9D2EB7D59A0083B693 /* Build configuration list for PBXNativeTarget "SystemVoiceRecorder" */ = {
+		284B1F512EBB1282000E4F25 /* Build configuration list for PBXNativeTarget "SimpleAudioRecordApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				282FEB9E2EB7D59A0083B693 /* Debug */,
-				282FEB9F2EB7D59A0083B693 /* Release */,
+				284B1F522EBB1282000E4F25 /* Debug */,
+				284B1F532EBB1282000E4F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 282FEB822EB7D5980083B693 /* Project object */;
+	rootObject = 284B1F3A2EBB1280000E4F25 /* Project object */;
 }
